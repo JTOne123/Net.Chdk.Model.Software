@@ -39,13 +39,13 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuildInfo.cs" />
-    <Compile Include="CameraInfo.cs" />
-    <Compile Include="CompilerInfo.cs" />
-    <Compile Include="ProductInfo.cs" />
+    <Compile Include="SoftwareBuildInfo.cs" />
+    <Compile Include="SoftwareCameraInfo.cs" />
+    <Compile Include="SoftwareCompilerInfo.cs" />
+    <Compile Include="SoftwareProductInfo.cs" />
     <Compile Include="SoftwareInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SourceInfo.cs" />
+    <Compile Include="SoftwareSourceInfo.cs" />
   </ItemGroup>
   <Import Project="..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

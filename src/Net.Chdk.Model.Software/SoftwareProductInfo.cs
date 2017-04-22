@@ -1,6 +1,6 @@
 ﻿namespace Net.Chdk.Model.Software
 {
-    public sealed class ProductInfo
+    public sealed class SoftwareProductInfo
     {
         public string Name { get; set; }
         public string Version { get; set; }

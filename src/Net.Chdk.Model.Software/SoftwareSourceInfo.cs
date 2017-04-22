@@ -1,6 +1,6 @@
 ﻿namespace Net.Chdk.Model.Software
 {
-    public sealed class SourceInfo
+    public sealed class SoftwareSourceInfo
     {
         public string Name { get; set; }
         public string Channel { get; set; }
