@@ -1,8 +1,10 @@
-﻿namespace Net.Chdk.Model.Software
+﻿using System;
+
+namespace Net.Chdk.Model.Software
 {
     public sealed class SoftwareInfo
     {
-        public string Version { get; set; }
+        public Version Version { get; set; }
         public SoftwareProductInfo Product { get; set; }
         public SoftwareCameraInfo Camera { get; set; }
         public SoftwareBuildInfo Build { get; set; }
