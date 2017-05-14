@@ -39,6 +39,7 @@
     <Compile Include="SoftwareBuildInfo.cs" />
     <Compile Include="SoftwareCameraInfo.cs" />
     <Compile Include="SoftwareCompilerInfo.cs" />
+    <Compile Include="SoftwareEncodingInfo.cs" />
     <Compile Include="SoftwareHashInfo.cs" />
     <Compile Include="SoftwareProductInfo.cs" />
     <Compile Include="SoftwareInfo.cs" />
