@@ -8,6 +8,6 @@ namespace Net.Chdk.Model.Software
         public string Name { get; set; }
 
         [JsonConverter(typeof(HexStringJsonConverter))]
-        public ulong? Data { get; set; }
+        public uint? Data { get; set; }
     }
 }
