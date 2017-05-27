@@ -5,5 +5,6 @@
         public string Name { get; set; }
         public string Status { get; set; }
         public string Changeset { get; set; }
+        public string Creator { get; set; }
     }
 }
