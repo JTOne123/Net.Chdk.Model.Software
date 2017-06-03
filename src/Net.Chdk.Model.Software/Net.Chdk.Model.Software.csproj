@@ -60,6 +60,7 @@
     <Compile Include="ModulesInfo.cs" />
     <Compile Include="SoftwareBuildInfo.cs" />
     <Compile Include="SoftwareCameraInfo.cs" />
+    <Compile Include="SoftwareCategoryInfo.cs" />
     <Compile Include="SoftwareCompilerInfo.cs" />
     <Compile Include="SoftwareEncodingInfo.cs" />
     <Compile Include="SoftwareHashInfo.cs" />
