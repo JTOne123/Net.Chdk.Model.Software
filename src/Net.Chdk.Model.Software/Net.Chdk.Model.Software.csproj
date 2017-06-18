@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="ModuleInfo.cs" />
     <Compile Include="ModulesInfo.cs" />
+    <Compile Include="ModulesProductInfo.cs" />
     <Compile Include="SoftwareBuildInfo.cs" />
     <Compile Include="SoftwareCameraInfo.cs" />
     <Compile Include="SoftwareCompilerInfo.cs" />
