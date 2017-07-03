@@ -15,5 +15,19 @@
         {
             return Platform.GetHashCode() ^ Revision.GetHashCode();
         }
+
+        public static bool operator ==(SoftwareCameraInfo camera1, SoftwareCameraInfo camera2)
+        {
+            if (ReferenceEquals(camera1, camera2))
+                return true;
+            if ((object)camera1 == null || (object)camera2 == null)
+                return false;
+            return camera1.Equals(camera2);
+        }
+
+        public static bool operator !=(SoftwareCameraInfo camera1, SoftwareCameraInfo camera2)
+        {
+            return !(camera1 == camera2);
+        }
     }
 }
