@@ -1,5 +1,8 @@
-﻿namespace Net.Chdk.Model.Software
+﻿using Newtonsoft.Json;
+
+namespace Net.Chdk.Model.Software
 {
+    [JsonObject(IsReference = false)]
     public sealed class SoftwareCameraInfo
     {
         public string Platform { get; set; }

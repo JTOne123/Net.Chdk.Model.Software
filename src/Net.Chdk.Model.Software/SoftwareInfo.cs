@@ -1,8 +1,10 @@
 ﻿using Net.Chdk.Model.Category;
+using Newtonsoft.Json;
 using System;
 
 namespace Net.Chdk.Model.Software
 {
+    [JsonObject(IsReference = false)]
     public sealed class SoftwareInfo
     {
         public Version Version { get; set; }
