@@ -7,7 +7,7 @@ namespace Net.Chdk.Model.Software
     {
         public string Name { get; set; }
 
-        [JsonConverter(typeof(HexStringJsonConverter))]
+        [JsonConverter(typeof(HexStringJsonConverter), "x8")]
         public uint? Data { get; set; }
     }
 }
