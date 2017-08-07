@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.2.0</Version>
+    <Version>0.2.1</Version>
     <VersionSuffix>alpha</VersionSuffix>
     <Product>CHIMP</Product>
     <Authors>Dmitry Shechtman</Authors>
@@ -31,9 +31,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Net.Chdk.Json" Version="0.1.0-alpha" />
+    <PackageReference Include="Net.Chdk.Json" Version="0.1.1-alpha" />
     <PackageReference Include="Net.Chdk.Model.Category" Version="0.1.0-alpha" />
-    <PackageReference Include="newtonsoft.json" Version="10.0.2" />
+    <PackageReference Include="newtonsoft.json" Version="10.0.3" />
   </ItemGroup>
 
 </Project>
